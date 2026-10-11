@@ -1,25 +1,26 @@
 {
   "expo": {
     "name": "Matrix",
-    "slug": "Matrix",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
+    "slug": "matrix",
+    "icon": "./assets/openart.png",
     "android": {
+      "package": "com.hotrodtymn.matrix",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+        "foregroundImage": "./assets/openart.png",
+        "backgroundColor": "#000000"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/48122c28-f27d-45a8-95f7-6d6819693fe9"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48122c28-f27d-45a8-95f7-6d6819693fe9"
+      }
+    },
+    "ios": {}
   }
 }
