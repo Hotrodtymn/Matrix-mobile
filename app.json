@@ -2,11 +2,11 @@
   "expo": {
     "name": "Matrix",
     "slug": "matrix",
-    "icon": "./assets/openart.png",
+    "icon": "./assets/App_icon.png",
     "android": {
       "package": "com.hotrodtymn.matrix",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/openart.png",
+        "foregroundImage": "./assets/App_icon.png",
         "backgroundColor": "#000000"
       }
     },
@@ -21,6 +21,7 @@
         "projectId": "48122c28-f27d-45a8-95f7-6d6819693fe9"
       }
     },
-    "ios": {}
+    "ios": {},
+    "plugins": ["react-native-alarm-scheduler"]
   }
 }

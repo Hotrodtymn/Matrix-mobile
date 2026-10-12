@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-alarm-scheduler/app.plugin.js b/node_modules/react-native-alarm-scheduler/app.plugin.js
+index ce14182..407cb60 100644
+--- a/node_modules/react-native-alarm-scheduler/app.plugin.js
++++ b/node_modules/react-native-alarm-scheduler/app.plugin.js
+@@ -25,7 +25,7 @@ const withAlarmScheduler = (config, props = {}) => {
+   const iosAlarmSounds = normalizeIosAlarmSounds(props.iosAlarmSounds);
+ 
+   config = withAndroidManifest(config, (modConfig) => {
+-    const manifest = modConfig.modResults.manifest;
++    const manifest = modConfig.modResults;
+     if (addExactAlarmPermission) {
+       AndroidConfig.Permissions.addPermission(manifest, 'android.permission.SCHEDULE_EXACT_ALARM');
+     }
